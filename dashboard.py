@@ -5,7 +5,7 @@ import streamlit as st
 
 #Menyiapkan dataframe
 
-day_df = pd.read_csv("data.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/sandika104/bike-rental/main/data.csv")
 
 def add_sum_cnt_df(day_df):
     sum_cnt_df = day_df.groupby("weathersit").cnt.sum().sort_values(ascending=False).reset_index()
