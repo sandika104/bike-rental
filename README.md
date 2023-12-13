@@ -4,6 +4,9 @@ conda activate SdkEnv2
 pip install pandas matplotlib seaborn streamlit jupyter numpy
 
 ## Run Streamlit App
+streamlit run dashboard.py
+
+# Or Visit
 https://bike-rental-beeriwc3qtxeqc5lcwoqfk.streamlit.app/
 
 Screenshot Dashboard:
